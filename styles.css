@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use a cool font like Roboto */
+    background-color: #f7f7f7; /* Choose a solid background color */
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #125688;
+  }
+  
+  div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #125688;
+    padding: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Add Instagram-like filter to the image */
+  img {
+    filter: grayscale(30%) brightness(95%) contrast(90%);
+  }
+  
+  /* Add border-radius to the image */
+  img {
+    border-radius: 8px;
+  }
+  
+  /* Add box shadow to the image container */
+  div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add padding and margin to the container */
+  div {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  /* Add hover effect to the links */
+  div a:hover {
+    color: #ffc107; /* Instagram's yellow */
+  }
+  
